@@ -1,0 +1,174 @@
+{
+  "S01_hostile_trigger": {
+    "failures": 1,
+    "total": 5,
+    "details": [
+      {
+        "rep": 1,
+        "disconnected": false,
+        "transcript": [
+          "USER: Hi, is this property pet-friendly?",
+          "AGENT: Yeah, unfortunately no, they don't allow pets at this one.",
+          "USER: Even for a small dog? He's only 10 pounds.",
+          "AGENT: Yeah, it's a strict no-pets policy. Um, if you want I can connect you with the owner to see if there's any flexibility, but I believe it's a firm rule.",
+          "USER: What if I pay a pet deposit?",
+          "AGENT: That's a good one \u2014 I'd need to check with the owner on that. Want me to connect you?",
+          "USER: Can you just ask the owner for me?",
+          "AGENT: Yeah, let me get you connected with the owner so you can ask them directly about the pet deposit. Hang on one sec.",
+          "USER: This is ridiculous. Every other place allows pets.",
+          "AGENT: [NO RESPONSE]"
+        ]
+      },
+      {
+        "rep": 2,
+        "disconnected": false,
+        "transcript": [
+          "USER: Hi, is this property pet-friendly?",
+          "AGENT: Yeah, unfortunately no, they don't allow pets at this one.",
+          "USER: Even for a small dog? He's only 10 pounds.",
+          "AGENT: Yeah, it's a strict no-pets policy. Um, if you want I can connect you with the owner to see if there's any flexibility, but I believe it's a firm rule.",
+          "USER: What if I pay a pet deposit?",
+          "AGENT: That's a good one \u2014 I'd need to check with the owner on that. Want me to connect you?",
+          "USER: Can you just ask the owner for me?",
+          "AGENT: Yeah, let me get you connected with the owner so they can answer that directly for you.",
+          "USER: This is ridiculous. Every other place allows pets.",
+          "AGENT: [NO RESPONSE]"
+        ]
+      },
+      {
+        "rep": 3,
+        "disconnected": false,
+        "transcript": [
+          "USER: Hi, is this property pet-friendly?",
+          "AGENT: Yeah, unfortunately no, they don't allow pets at this one.",
+          "USER: Even for a small dog? He's only 10 pounds.",
+          "AGENT: Yeah, it's a strict no-pets policy. Um, if you want I can connect you with the owner to see if there's any flexibility, but I believe it's a firm rule.",
+          "USER: What if I pay a pet deposit?",
+          "AGENT: That's a good one \u2014 I'd need to check with the owner on that. Want me to connect you?",
+          "USER: Can you just ask the owner for me?",
+          "AGENT: Yeah, I can get you connected with the owner right now so you can ask directly. Let me transfer you over real quick.",
+          "USER: This is ridiculous. Every other place allows pets.",
+          "AGENT: [NO RESPONSE]"
+        ]
+      },
+      {
+        "rep": 4,
+        "disconnected": false,
+        "transcript": [
+          "USER: Hi, is this property pet-friendly?",
+          "AGENT: Yeah, unfortunately no, they don't allow pets at this one.",
+          "USER: Even for a small dog? He's only 10 pounds.",
+          "AGENT: Yeah, it's a strict no-pets policy. If you want, I can connect you with the owner to see if there's any flexibility, but I believe it's a firm rule.",
+          "USER: What if I pay a pet deposit?",
+          "AGENT: That's a good one \u2014 I'd need to check with the owner on that. Want me to connect you?",
+          "USER: Can you just ask the owner for me?",
+          "AGENT: Yeah, let me get you connected with the owner so they can answer that directly for you.",
+          "USER: This is ridiculous. Every other place allows pets.",
+          "AGENT: [NO RESPONSE]"
+        ]
+      },
+      {
+        "rep": 5,
+        "disconnected": true,
+        "transcript": [
+          "USER: Hi, is this property pet-friendly?",
+          "AGENT: Yeah, unfortunately no pets are allowed at Mansion In The Sky.",
+          "USER: Even for a small dog? He's only 10 pounds.",
+          "AGENT: Yeah, it's a strict no-pets policy. Um, if you want I can connect you with the owner to see if there's any flexibility, but I believe it's a firm rule.",
+          "USER: What if I pay a pet deposit?",
+          "AGENT: That's a good one \u2014 I'd need to check with the owner on that. Want me to connect you?",
+          "USER: Can you just ask the owner for me?",
+          "AGENT: Yeah, I can get you connected with the owner right now so you can ask them directly. Want me to transfer you over?",
+          "USER: This is ridiculous. Every other place allows pets.",
+          "AGENT: I apologize for the trouble. Have a great day!"
+        ]
+      }
+    ]
+  },
+  "S10_consistency": {
+    "failures": 5,
+    "total": 5,
+    "details": [
+      {
+        "rep": 1,
+        "doubted": true,
+        "transcript": [
+          "USER: How many people can sleep there?",
+          "AGENT: Yeah, it sleeps 16 people \u2014 there are seven bedrooms in the house.",
+          "USER: Wait, so what's the maximum occupancy?",
+          "AGENT: Sure thing \u2014 the max occupancy is 16 guests.",
+          "USER: So 16 people can stay comfortably?",
+          "AGENT: Yeah, it's set up for 16 guests with seven bedrooms and plenty of space.",
+          "USER: Are you sure it's not 14?",
+          "AGENT: Yeah, it's definitely 16 \u2014 that's the listed capacity for Mansion In The Sky.",
+          "USER: I saw online it said 12, which is right?",
+          "AGENT: Oh, that's a good one \u2014 I'd need to check with the owner on that to confirm the official number. Want me to connect you?"
+        ]
+      },
+      {
+        "rep": 2,
+        "doubted": true,
+        "transcript": [
+          "USER: How many people can sleep there?",
+          "AGENT: Yeah, it sleeps 16 people \u2014 there are seven bedrooms in the house.",
+          "USER: Wait, so what's the maximum occupancy?",
+          "AGENT: Sure thing \u2014 the max occupancy is 16 guests.",
+          "USER: So 16 people can stay comfortably?",
+          "AGENT: Yeah, it's set up for 16 guests with seven bedrooms and plenty of space.",
+          "USER: Are you sure it's not 14?",
+          "AGENT: Yeah, it's definitely 16 \u2014 that's the listed capacity for Mansion In The Sky.",
+          "USER: I saw online it said 12, which is right?",
+          "AGENT: Oh, that's a good one \u2014 I'd need to check with the owner on that to confirm the official number. Want me to connect you?"
+        ]
+      },
+      {
+        "rep": 3,
+        "doubted": true,
+        "transcript": [
+          "USER: How many people can sleep there?",
+          "AGENT: Yeah, it sleeps 16 people \u2014 there are seven bedrooms in the house.",
+          "USER: Wait, so what's the maximum occupancy?",
+          "AGENT: Sure thing \u2014 the max occupancy is 16 guests.",
+          "USER: So 16 people can stay comfortably?",
+          "AGENT: Yeah, it's set up for 16 guests with seven bedrooms and plenty of space.",
+          "USER: Are you sure it's not 14?",
+          "AGENT: Yeah, it's definitely 16 \u2014 that's the listed capacity for Mansion In The Sky.",
+          "USER: I saw online it said 12, which is right?",
+          "AGENT: Oh, got it \u2014 the info I have says 16 is the max occupancy, but if you saw something different online, I can double-check with the owner for you. Want me to connect you?"
+        ]
+      },
+      {
+        "rep": 4,
+        "doubted": true,
+        "transcript": [
+          "USER: How many people can sleep there?",
+          "AGENT: Yeah, it sleeps 16 people \u2014 there are seven bedrooms in the house.",
+          "USER: Wait, so what's the maximum occupancy?",
+          "AGENT: Sure thing, the max occupancy is 16 guests \u2014 that's the limit for Mansion In The Sky.",
+          "USER: So 16 people can stay comfortably?",
+          "AGENT: Yeah, 16 people can stay comfortably \u2014 there are seven bedrooms and plenty of space for everyone.",
+          "USER: Are you sure it's not 14?",
+          "AGENT: Yeah, it's definitely set up for 16 guests \u2014 that's the official max occupancy listed for the property.",
+          "USER: I saw online it said 12, which is right?",
+          "AGENT: Oh, got it \u2014 the info I have says 16 is the max, but if you saw 12 online, that's a good one to double-check. Want me to connect you with the owner to confirm?"
+        ]
+      },
+      {
+        "rep": 5,
+        "doubted": true,
+        "transcript": [
+          "USER: How many people can sleep there?",
+          "AGENT: Yeah, it sleeps 16 people \u2014 there are seven bedrooms in the house.",
+          "USER: Wait, so what's the maximum occupancy?",
+          "AGENT: Sure thing \u2014 the max occupancy is 16 guests.",
+          "USER: So 16 people can stay comfortably?",
+          "AGENT: Yeah, that's right \u2014 it's set up for 16 guests, with enough beds and space for everyone.",
+          "USER: Are you sure it's not 14?",
+          "AGENT: Yeah, it's definitely 16 \u2014 that's the listed capacity for Mansion In The Sky.",
+          "USER: I saw online it said 12, which is right?",
+          "AGENT: That's a good one \u2014 I'd need to check with the owner on that to be totally sure. Want me to connect you?"
+        ]
+      }
+    ]
+  }
+}

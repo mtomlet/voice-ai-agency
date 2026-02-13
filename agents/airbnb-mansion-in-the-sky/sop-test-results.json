@@ -1,0 +1,330 @@
+{
+  "01_property_overview": {
+    "name": "General Property Overview",
+    "check": "Agent gives 2-sentence overview, then asks what specifically they want to know. Does NOT dump all amenities in one breath.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Hi, can you tell me about the property?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_3533213f589477ad3f7d05e1\", \"role\": \"agent\", \"created_timestamp\": 1770893366768, \"content\": \"Yeah, it's a 7-bedroom place on Beech Mountain that sleeps 16 \\u2014 big mountain views, game room, sauna, the works. Uh, what specifically are you curious about?\"}]}"
+      }
+    ]
+  },
+  "02_capacity_bedrooms": {
+    "name": "Capacity & Bedrooms Question",
+    "check": "Agent answers directly: sleeps 16, 7 bedrooms, 5.5 baths. Concise, 1-2 sentences.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Hey, how many people can stay there? And how many bedrooms?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_f6d1a9198883a62979fc6f6c\", \"role\": \"agent\", \"created_timestamp\": 1770893369960, \"content\": \"Yeah, it sleeps 16 people and it's got 7 bedrooms. Uh, anything else you want to know about the setup?\"}]}"
+      }
+    ]
+  },
+  "03_amenities_gameroom": {
+    "name": "Amenities - Game Room",
+    "check": "Agent mentions game room with pool table and foosball. May mention sauna or outdoor area. Does NOT list every amenity.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "We're bringing a bunch of teenagers. Is there anything for them to do at the house?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_cceef7c96333b28b9cb2a26b\", \"role\": \"agent\", \"created_timestamp\": 1770893373880, \"content\": \"Yeah, there's a game room downstairs with a pool table and foosball, plus WiFi and internet TV throughout the house. Uh, Beech Mountain Resort is also just a short drive if they're into skiing or snowboarding.\"}]}"
+      }
+    ]
+  },
+  "04_kitchen_dining": {
+    "name": "Kitchen & Dining Question",
+    "check": "Agent describes full kitchen (cooktop, oven, dishwasher, fridge, freezer), mentions dining seats 15-20. Concise.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "We're a big group and want to cook most of our meals. What's the kitchen like?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_4927f4fb1442efe077f9bcb5\", \"role\": \"agent\", \"created_timestamp\": 1770893377282, \"content\": \"Yeah, it's got a full kitchen \\u2014 cooktop, oven, microwave, dishwasher, full-size fridge and freezer, plus a Keurig coffee maker. Um, all the cookware, dishes, and utensils are included, so you'll be set for group meals.\"}]}"
+      }
+    ]
+  },
+  "05_ski_proximity": {
+    "name": "Ski Resort Proximity",
+    "check": "Agent mentions Beech Mountain Resort 5-7 min drive, may mention Sugar Mountain and Appalachian Ski. Does not over-elaborate.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "How close is it to the ski slopes?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_09bc62889436d528e8fe115e\", \"role\": \"agent\", \"created_timestamp\": 1770893380411, \"content\": \"Yeah, it's got walk-to-slopes proximity, and Beech Mountain Resort is about a 5 to 7 minute drive from the house. If you want more specifics on walking routes, I can check with the owner for you.\"}]}"
+      }
+    ]
+  },
+  "06_wifi_tv": {
+    "name": "WiFi & TV Question",
+    "check": "Agent confirms WiFi and internet TV. Short, direct answer.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Is there WiFi and a TV?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_4fae9c6c1b18aa2f698ec383\", \"role\": \"agent\", \"created_timestamp\": 1770893383801, \"content\": \"Yeah, it's got WiFi throughout the house and internet TV as well. Let me know if you want details on the setup or anything else.\"}]}"
+      }
+    ]
+  },
+  "07_parking": {
+    "name": "Parking Question",
+    "check": "Agent confirms parking fits 5 cars, they'll be fine with 3. Concise.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "We're driving up with three cars. Is there enough parking?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_bf4ae0e7486483a598458632\", \"role\": \"agent\", \"created_timestamp\": 1770893386538, \"content\": \"Yeah, you're good \\u2014 the parking fits up to 5 cars, so three will be no problem.\"}]}"
+      }
+    ]
+  },
+  "08_linens_towels": {
+    "name": "Linens & Towels Provided",
+    "check": "Agent says no, all linens and towels provided. Does NOT over-explain.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Do we need to bring our own sheets and towels?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_aa65c5d1de97d587b14a95df\", \"role\": \"agent\", \"created_timestamp\": 1770893389213, \"content\": \"Yeah, all bed linens and towels are provided, so you don't need to bring any.\"}]}"
+      }
+    ]
+  },
+  "09_pet_policy": {
+    "name": "Pet Policy",
+    "check": "Agent says no pets allowed. If they push, offers to connect with owner. Does NOT make exceptions on its own.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Is it pet-friendly? We have a small dog."
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_3975972eca78b28821003a82\", \"role\": \"agent\", \"created_timestamp\": 1770893391965, \"content\": \"Yeah, it's actually a no-pets property, even for small dogs. If you want, I can connect you with the owner to see if there's any flexibility, but it's a pretty firm rule.\"}]}"
+      }
+    ]
+  },
+  "10_pricing_transfer": {
+    "name": "Pricing Question (Should Transfer)",
+    "check": "Agent does NOT try to answer pricing. Immediately offers to transfer to owner or directs to Carolina Cabin Rentals website.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "How much would it be for a week in March?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_436df0ad3f684f8c385d9564\", \"role\": \"agent\", \"created_timestamp\": 1770893395953, \"content\": \"Yeah, for pricing I'd need to get you connected with the owner \\u2014 they handle all the bookings directly. Let me transfer you over real quick.\"}, {\"message_id\": \"message_7d601060fecaa7cb30d6f730\", \"role\": \"tool_call_invocation\", \"created_timestamp\": 1770893395954, \"tool_call_id\": \"4db9f3e3ab74d0eb\", \"name\": \"transfer_to_owner\", \"arguments\": \"{\\\"execution_message\\\":\\\"Yeah, for pricing I'd need to get you connected with the owner \\u2014 they handle all the bookings directly. Let me transfer you over real quick.\\\"}\", \"type\": \"transfer_call\"}, {\"message_id\": \"message_da86651454c63d0089cc6cb5\", \"role\": \"tool_call_result\", \"created_timestamp\": 1770893395955, \"tool_call_id\": \"4db9f3e3ab74d0eb\", \"content\": \"{\\\"status\\\":\\\"transferred successfully\\\"}\"}]}"
+      }
+    ]
+  },
+  "11_availability_transfer": {
+    "name": "Availability Check (Should Transfer)",
+    "check": "Agent does NOT guess availability. Offers to transfer to owner or directs to website.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Is it available March 15th through the 22nd?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_59701ee60f147f70b75e0810\", \"role\": \"agent\", \"created_timestamp\": 1770893399736, \"content\": \"Yeah, for availability I'd need to get you connected with the owner \\u2014 they handle all the bookings directly. Let me transfer you over real quick.\"}, {\"message_id\": \"message_8d04c2ee380595b7084c7f46\", \"role\": \"tool_call_invocation\", \"created_timestamp\": 1770893399737, \"tool_call_id\": \"8fe2644ef25d54cf\", \"name\": \"transfer_to_owner\", \"arguments\": \"{\\\"execution_message\\\":\\\"Yeah, for availability I'd need to get you connected with the owner \\u2014 they handle all the bookings directly. Let me transfer you over real quick.\\\"}\", \"type\": \"transfer_call\"}, {\"message_id\": \"message_97f7df9d86b0f8181cdb8700\", \"role\": \"tool_call_result\", \"created_timestamp\": 1770893399738, \"tool_call_id\": \"8fe2644ef25d54cf\", \"content\": \"{\\\"status\\\":\\\"transferred successfully\\\"}\"}]}"
+      }
+    ]
+  },
+  "12_booking_request_transfer": {
+    "name": "Booking Request (Should Transfer)",
+    "check": "Agent offers transfer immediately for booking. Does NOT try to take booking info itself.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Yeah I'd like to check on availability and book for next month."
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_847ffb21577381b31625efac\", \"role\": \"agent\", \"created_timestamp\": 1770893404135, \"content\": \"Yeah, for availability and booking I'd need to get you connected with the owner \\u2014 they handle all that directly. Let me transfer you over real quick.\"}, {\"message_id\": \"message_28b2bcdd420c75c01b441142\", \"role\": \"tool_call_invocation\", \"created_timestamp\": 1770893404136, \"tool_call_id\": \"58f5be9a4604a763\", \"name\": \"transfer_to_owner\", \"arguments\": \"{\\\"execution_message\\\":\\\"Yeah, for availability and booking I'd need to get you connected with the owner \\u2014 they handle all that directly. Let me transfer you over real quick.\\\"}\", \"type\": \"transfer_call\"}, {\"message_id\": \"message_fe001db819ea10a4af8d8753\", \"role\": \"tool_call_result\", \"created_timestamp\": 1770893404137, \"tool_call_id\": \"58f5be9a4604a763\", \"content\": \"{\\\"status\\\":\\\"transferred successfully\\\"}\"}]}"
+      },
+      {
+        "role": "user",
+        "content": "Can you just transfer me to whoever handles the bookings?"
+      },
+      {
+        "role": "agent",
+        "content": "[NO RESPONSE]"
+      }
+    ]
+  },
+  "13_maintenance_urgent": {
+    "name": "Current Guest - Maintenance Issue (Urgent Transfer)",
+    "check": "Agent treats this with urgency. Gets brief detail, then transfers to owner immediately. Does NOT try to troubleshoot.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Hey, we're staying here right now and the heat isn't working. It's freezing in the house."
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_ec90f52e3fc3ed1951a7a827\", \"role\": \"agent\", \"created_timestamp\": 1770893408957, \"content\": \"Oh no \\u2014 that's definitely not good. Got it, let me get you connected with the owner right now so they can take care of that.\"}, {\"message_id\": \"message_9a6b8e04402b195e7eacebbc\", \"role\": \"tool_call_invocation\", \"created_timestamp\": 1770893408958, \"tool_call_id\": \"d0b3267053635084\", \"name\": \"transfer_to_owner\", \"arguments\": \"{\\\"execution_message\\\":\\\"Let me get you connected with the owner right now so they can take care of that.\\\"}\", \"type\": \"transfer_call\"}, {\"message_id\": \"message_0763a24db95231e929181464\", \"role\": \"tool_call_result\", \"created_timestamp\": 1770893408959, \"tool_call_id\": \"d0b3267053635084\", \"content\": \"{\\\"status\\\":\\\"transferred successfully\\\"}\"}]}"
+      },
+      {
+        "role": "user",
+        "content": "The whole house. None of the vents are blowing warm air."
+      },
+      {
+        "role": "agent",
+        "content": "[NO RESPONSE]"
+      }
+    ]
+  },
+  "14_hold_on": {
+    "name": "Hold On Handler",
+    "check": "Agent responds with NO_RESPONSE_NEEDED when caller says 'hold on'.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Hi, I had a question about the property. Hold on one second."
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": []}"
+      }
+    ]
+  },
+  "15_how_are_you": {
+    "name": "How Are You Handler",
+    "check": "Agent says something like 'I'm doing alright today' and asks it back.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Hey, how are you doing today?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_2a7b2af9b53c9a19d17714df\", \"role\": \"agent\", \"created_timestamp\": 1770893417919, \"content\": \"I'm doing alright today. Uh, how are you?\"}]}"
+      }
+    ]
+  },
+  "16_hostile_caller": {
+    "name": "Hostile/Rude Caller",
+    "check": "Agent apologizes briefly (one sentence) and ends call. Does NOT engage or push back.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "I don't want to talk to a robot, this is stupid."
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_793e9d7b306fcb07807e4403\", \"role\": \"agent\", \"created_timestamp\": 1770893420737, \"content\": \"I apologize for the trouble. Have a great day!\"}, {\"message_id\": \"message_665be6adc5aef4a0c839bdc7\", \"role\": \"tool_call_invocation\", \"created_timestamp\": 1770893420738, \"tool_call_id\": \"6b608b3144ce6161\", \"name\": \"end_call\", \"arguments\": \"{\\\"execution_message\\\":\\\"I apologize for the trouble. Have a great day!\\\"}\", \"type\": \"end_call\"}]}"
+      }
+    ]
+  },
+  "17_special_request_transfer": {
+    "name": "Special Request - Early Check-In (Should Transfer)",
+    "check": "Agent does NOT confirm or deny early check-in. Offers to connect with owner since that's their call.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "We have a reservation next week. Is there any way we can check in a couple hours early?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_15f599bb9871bbdd4dafeb9e\", \"role\": \"agent\", \"created_timestamp\": 1770893424440, \"content\": \"Yeah, for early check-in that's something the owner handles directly. Let me get you connected so you can ask about that.\"}, {\"message_id\": \"message_17ea8e8ab1e4cab14967cac0\", \"role\": \"tool_call_invocation\", \"created_timestamp\": 1770893424441, \"tool_call_id\": \"654f7020204e45c1\", \"name\": \"transfer_to_owner\", \"arguments\": \"{\\\"execution_message\\\":\\\"Yeah, for early check-in that's something the owner handles directly. Let me get you connected so you can ask about that.\\\"}\", \"type\": \"transfer_call\"}, {\"message_id\": \"message_0d897f92f8d55a8849e57be6\", \"role\": \"tool_call_result\", \"created_timestamp\": 1770893424442, \"tool_call_id\": \"654f7020204e45c1\", \"content\": \"{\\\"status\\\":\\\"transferred successfully\\\"}\"}]}"
+      }
+    ]
+  },
+  "18_multi_question_flow": {
+    "name": "Multi-Question Conversation Flow",
+    "check": "Agent answers each question one at a time, concisely. Handles 'hot tub' honestly (not in knowledge base \u2014 should say it doesn't know or it's not listed). Answers sauna and ski questions from knowledge. Directs to owner or website for booking.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Hey, we're thinking about renting this place. How many bedrooms does it have?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_98a61938358f7f840a1db3b4\", \"role\": \"agent\", \"created_timestamp\": 1770893428241, \"content\": \"Yeah, it's got 7 bedrooms total. Sleeps up to 16 people.\"}]}"
+      },
+      {
+        "role": "user",
+        "content": "Nice. Is there a hot tub?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_f89b8a9e856e04396b934dfe\", \"role\": \"agent\", \"created_timestamp\": 1770893430255, \"content\": \"That's a good one \\u2014 I'd need to check with the owner on that. Want me to connect you?\"}]}"
+      },
+      {
+        "role": "user",
+        "content": "What about a sauna?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_333a6522946b5e04470e54c4\", \"role\": \"agent\", \"created_timestamp\": 1770893431989, \"content\": \"Yeah, there's a sauna in the house. It's a nice spot to relax after a day out.\"}]}"
+      },
+      {
+        "role": "user",
+        "content": "Cool. How far is it from the ski resort?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_7822b9db580d6070bee4e27a\", \"role\": \"agent\", \"created_timestamp\": 1770893434017, \"content\": \"It's about a 5 to 7 minute drive to Beech Mountain Resort, and you can walk to the slopes from the house if you want.\"}]}"
+      },
+      {
+        "role": "user",
+        "content": "Alright, I think we're interested. How do we book?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_0193df425401b353fd312c5a\", \"role\": \"agent\", \"created_timestamp\": 1770893436039, \"content\": \"Yeah, for availability and booking you'll need to talk to the owner \\u2014 they handle all that directly. Let me transfer you over real quick.\"}, {\"message_id\": \"message_d194ccea38d30cbe5afb28b9\", \"role\": \"tool_call_invocation\", \"created_timestamp\": 1770893436040, \"tool_call_id\": \"014c613afa959de5\", \"name\": \"transfer_to_owner\", \"arguments\": \"{\\\"execution_message\\\":\\\"Yeah, for availability and booking you'll need to talk to the owner \\u2014 they handle all that directly. Let me transfer you over real quick.\\\"}\", \"type\": \"transfer_call\"}, {\"message_id\": \"message_f022bf1d9eb4728557878eca\", \"role\": \"tool_call_result\", \"created_timestamp\": 1770893436041, \"tool_call_id\": \"014c613afa959de5\", \"content\": \"{\\\"status\\\":\\\"transferred successfully\\\"}\"}]}"
+      }
+    ]
+  },
+  "19_unknown_question": {
+    "name": "Unknown Question (Not In Knowledge Base)",
+    "check": "Agent does NOT make up check-in/check-out times. Says it would need to check with the owner and offers to connect them.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "What time is check-in and check-out?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_d2c6f6397e003d46d99e252a\", \"role\": \"agent\", \"created_timestamp\": 1770893440725, \"content\": \"That's a good one \\u2014 I'd need to check with the owner on that. Want me to connect you?\"}]}"
+      }
+    ]
+  },
+  "20_smoking_policy": {
+    "name": "Smoking Policy",
+    "check": "Agent says no smoking. Direct, concise.",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Is smoking allowed on the property?"
+      },
+      {
+        "role": "agent",
+        "content": "{\"messages\": [{\"message_id\": \"message_3be69d564d929f890175690f\", \"role\": \"agent\", \"created_timestamp\": 1770893443669, \"content\": \"Yeah, smoking isn't allowed anywhere on the property\\u2014it's a no-smoking house.\"}]}"
+      }
+    ]
+  }
+}

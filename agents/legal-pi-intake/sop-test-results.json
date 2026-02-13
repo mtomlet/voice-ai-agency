@@ -1,0 +1,520 @@
+{
+  "1_standard_intake": [
+    {
+      "role": "user",
+      "content": "Yeah, that's fine. Go ahead."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_397a28927890452f94364608\", \"role\": \"agent\", \"created_timestamp\": 1770874917583, \"content\": \"Can you tell me a little about what happened?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "I was rear-ended at a red light yesterday on Main Street in Phoenix. The other driver was texting. My neck's been killing me since."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_f8b1adaf4bb381e49d4691aa\", \"role\": \"agent\", \"created_timestamp\": 1770874919994, \"content\": \"I'm sorry to hear that. You mentioned this happened yesterday in Phoenix, and you're dealing with neck pain. Are you currently receiving any medical treatment for your injury?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "I went to the ER last night. They said it's whiplash and gave me some painkillers."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_0098f5a2f259a353bd53b721\", \"role\": \"agent\", \"created_timestamp\": 1770874921644, \"content\": \"Got it, thank you for sharing that. Do you know if the other driver\\u2019s insurance company has reached out to you yet?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "The other driver. He got a ticket at the scene."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_e77bd25e0fd5337d658f8a34\", \"role\": \"agent\", \"created_timestamp\": 1770874923328, \"content\": \"Understood. It sounds like the other driver was found at fault. Was there a police report filed, or any witnesses to the accident?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "No, not yet."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_76e510063a2e6935d829bdd9\", \"role\": \"agent\", \"created_timestamp\": 1770874925160, \"content\": \"Okay, thank you. Have you spoken with any other attorneys about this so far?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "No, you're the first ones I've called."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_27982899fe561e4285f43a8e\", \"role\": \"agent\", \"created_timestamp\": 1770874926784, \"content\": \"Got it. Let me grab your contact information so the attorney can follow up with you. What's your full name?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Mike Rodriguez."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_d23bb7cd3a98aa78b186f5e1\", \"role\": \"agent\", \"created_timestamp\": 1770874928518, \"content\": \"Thank you, Mike. And what's the best number to reach you? Is it the one you're calling from?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, this number's good. 555-0147."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_cc91eb7dfc301365b0d14b1b\", \"role\": \"agent\", \"created_timestamp\": 1770874930458, \"content\": \"Thank you. And do you have an email address the attorney can use to follow up?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "mike.rodriguez@email.com"
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_919704e4ef3f84acea5bbcbd\", \"role\": \"agent\", \"created_timestamp\": 1770874932185, \"content\": \"Thank you, Mike. When's the best time for the attorney to call you back?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Yep, that's right."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_75fa912b4a355a166c5ea6aa\", \"role\": \"agent\", \"created_timestamp\": 1770874934044, \"content\": \"Just to clarify, is there a specific time of day that works best for the attorney to call you back?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Tomorrow morning works best."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_3f11c9f2048b5a86da61967b\", \"role\": \"agent\", \"created_timestamp\": 1770874935954, \"content\": \"Perfect. I have everything I need. An attorney will review your information and give you a call back tomorrow morning. If anything comes up before then, feel free to call us back anytime. Thanks for reaching out, Mike, and take care of yourself.\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Thanks, bye."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_00f32ceea82e9ea5d3bedd2a\", \"role\": \"agent\", \"created_timestamp\": 1770874937551, \"content\": \"You're welcome. Goodbye!\"}]}"
+    }
+  ],
+  "2_legal_advice": [
+    {
+      "role": "user",
+      "content": "Yeah sure."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_05e15bc2be79a4306d6c1bbe\", \"role\": \"agent\", \"created_timestamp\": 1770874940086, \"content\": \"Thank you. Can you tell me a little about what happened?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "I slipped on a wet floor at a grocery store two weeks ago in LA. Broke my wrist. So do I have a case here?"
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_7645aa0671194d959f42f6d1\", \"role\": \"agent\", \"created_timestamp\": 1770874942264, \"content\": \"I'm sorry to hear about your injury. I can't give legal advice, but I can gather your information so an attorney can review it and discuss your options.  \\n\\nYou mentioned this happened two weeks ago in Los Angeles and that you broke your wrist. Are you currently receiving medical treatment for it?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Come on, can you at least give me a ballpark on what this is worth?"
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_994525189e6741d6c3aa19d4\", \"role\": \"agent\", \"created_timestamp\": 1770874944450, \"content\": \"I understand you're looking for clarity, but that's really something the attorney would need to discuss with you directly. My role is to gather your information so they can provide the guidance you need.  \\n\\nHave you been in contact with any insurance companies about this yet?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Fine. Should I talk to the store's insurance company? They keep calling me."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_5bfa1ac2b0b2273d9380afa6\", \"role\": \"agent\", \"created_timestamp\": 1770874946472, \"content\": \"That's definitely a question the attorney would be the best person to answer. Let me make sure I gather all the details so they can address that directly.  \\n\\nDo you know if there were any witnesses or a report made about the incident?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "No."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_5371b8fc2570a5ec5bc5e910\", \"role\": \"agent\", \"created_timestamp\": 1770874948266, \"content\": \"Got it, thank you. Have you spoken with any other attorneys about this so far?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "David Chen."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_497afc66c5ee078c6e37b70b\", \"role\": \"agent\", \"created_timestamp\": 1770874950125, \"content\": \"Thank you for letting me know. Let me grab your contact information so the attorney can follow up with you. What's your full name?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Yeah this number."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_325b8fa73792687c5b4671ca\", \"role\": \"agent\", \"created_timestamp\": 1770874952155, \"content\": \"Got it. Is this the best number to reach you, or would you like to provide a different one? And may I have your full name as well?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "dchen@gmail.com"
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_a5f14c36feff6334ac4db901\", \"role\": \"agent\", \"created_timestamp\": 1770874954070, \"content\": \"Thank you. Just to confirm, your email is dchen@gmail.com. May I have your full name as well?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Yes."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_ccadaa2c40dff37a3fcb8971\", \"role\": \"agent\", \"created_timestamp\": 1770874955773, \"content\": \"Thank you. When would be the best time for the attorney to call you back?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Anytime works."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_d12825574e9f492050b1679e\", \"role\": \"agent\", \"created_timestamp\": 1770874957430, \"content\": \"Perfect. I have everything I need. An attorney will review your information and give you a call back within 24 hours. If anything comes up before then, feel free to call us back anytime. Thanks for reaching out, and take care of yourself.\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Thanks."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_6042deb0ac9387263fa42e56\", \"role\": \"agent\", \"created_timestamp\": 1770874959086, \"content\": \"You're welcome. Take care.\"}]}"
+    }
+  ],
+  "3_emotional_urgent": [
+    {
+      "role": "user",
+      "content": "Yes... please..."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_eca12fecb2a99b07740f79de\", \"role\": \"agent\", \"created_timestamp\": 1770874961865, \"content\": \"Thank you for calling the Law Offices of Anderson & Associates. My name is Sarah, and I\\u2019m an AI assistant. Are you calling about a personal injury matter?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "My husband was in a motorcycle accident three days ago. He's in the ICU with a broken spine. I don't know what to do. I'm at the hospital right now."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_7dba72578f6c939ee679f269\", \"role\": \"agent\", \"created_timestamp\": 1770874963672, \"content\": \"I'm so sorry to hear about your husband's accident. Based on what you're telling me, I want to see if I can get you connected with an attorney right now. Can you hold for just a moment?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Yes, please."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_a077b565259498f2bff3953c\", \"role\": \"agent\", \"created_timestamp\": 1770874966055, \"content\": \"Hold on for just a moment while I try to connect you with an attorney. One moment, please. \\n\\n[If transfer fails: \\\"I wasn't able to reach the attorney right now, but I'm going to mark this as urgent so they call you back as soon as possible. What's the best number to reach you?\\\"]\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "555-0298. I'm at the hospital."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_063157f47d11afc346848500\", \"role\": \"agent\", \"created_timestamp\": 1770874967710, \"content\": \"Thank you. I\\u2019ve marked this as urgent, and an attorney will call you back as soon as possible. Is there a specific time that works best for them to reach you?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Jessica Thompson."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_f7f5cdc900c0052fbc441f58\", \"role\": \"agent\", \"created_timestamp\": 1770874969910, \"content\": \"Thank you, Jessica. I have your name and number noted. An attorney will review this immediately and get back to you as soon as possible. If anything changes or you need further assistance, don\\u2019t hesitate to call us back. Take care of yourself and your husband.\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "jthompson@email.com"
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_36b7802eceed2d70fedec2ce\", \"role\": \"agent\", \"created_timestamp\": 1770874971797, \"content\": \"Got it, jthompson@email.com. Thank you for providing that. An attorney will be in touch with you shortly. Take care, Jessica.\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Yes."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_7086df7a31f28345f53184f1\", \"role\": \"agent\", \"created_timestamp\": 1770874973711, \"content\": \"Thank you again, Jessica. An attorney will reach out to you as soon as possible. Take care.\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Thank you."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_3853b0f29569d0919158475b\", \"role\": \"agent\", \"created_timestamp\": 1770874975991, \"content\": \"You're very welcome. Take care.\"}]}"
+    }
+  ],
+  "4_wrong_practice_area": [
+    {
+      "role": "user",
+      "content": "Yeah. I got arrested for DUI last night. I need a lawyer."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_13b0d655035ca840a6928b30\", \"role\": \"agent\", \"created_timestamp\": 1770874978770, \"content\": \"Our firm focuses on personal injury cases, not criminal defense. I recommend reaching out to your state bar association for a referral to a DUI attorney. Is there anything else I can assist you with?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Oh okay. Thanks."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_63cad8fe670ebd1e94520873\", \"role\": \"agent\", \"created_timestamp\": 1770874980322, \"content\": \"You're welcome. Take care.\"}]}"
+    }
+  ],
+  "5_old_incident": [
+    {
+      "role": "user",
+      "content": "Yeah, go ahead."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_445dd539d99070846e719683\", \"role\": \"agent\", \"created_timestamp\": 1770874983060, \"content\": \"Thank you. Can you tell me a little about what happened?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "I was in a car accident about a year and a half ago. Didn't think it was bad at first, but now I have chronic back pain. A friend told me to call. Is it too late?"
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_32646883088ce9fbc81a7ffd\", \"role\": \"agent\", \"created_timestamp\": 1770874985743, \"content\": \"I'm sorry to hear about your accident and the pain you're dealing with. I can't say for sure if it's too late\\u2014that's something the attorney would need to determine. Let me gather a bit more information so they can review your situation. Where did the accident take place?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Springfield. I got rear-ended at a stoplight."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_6007246be51e4ff553a040a5\", \"role\": \"agent\", \"created_timestamp\": 1770874987581, \"content\": \"Got it, rear-ended in Springfield. Are you currently receiving any medical treatment for your back pain?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Physical therapy and I just got an MRI."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_cfdcc83a0f3933d58f470596\", \"role\": \"agent\", \"created_timestamp\": 1770874989586, \"content\": \"Understood. Do you know who was at fault for the accident, or is that still unclear?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "The other driver. They admitted it at the scene."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_5af8e8318336e2abf837db80\", \"role\": \"agent\", \"created_timestamp\": 1770874991203, \"content\": \"Okay, thank you for sharing that. Has any insurance company reached out to you about this?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Their insurance covered my car but I never went after the injury stuff."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_6ea19ee61a4173ab48aab4e8\", \"role\": \"agent\", \"created_timestamp\": 1770874993432, \"content\": \"Got it. Have you spoken with any other attorneys about this yet?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "No, you're the first."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_cee8d2473ce87a8aafe15399\", \"role\": \"agent\", \"created_timestamp\": 1770874995835, \"content\": \"Okay, I appreciate that. Let me grab your contact information so the attorney can follow up with you. What's your full name?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Sarah Williams."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_9e5ba772a64be696a9e0cefc\", \"role\": \"agent\", \"created_timestamp\": 1770874997485, \"content\": \"Thank you, Sarah. And what's the best number to reach you? Is it the one you're calling from?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "555-0555."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_fbc259d03bfa9e192a155577\", \"role\": \"agent\", \"created_timestamp\": 1770874999260, \"content\": \"Thank you. And do you have an email address the attorney can use to follow up?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "swilliams@yahoo.com"
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_116fd00b1c2fac026cf1a458\", \"role\": \"agent\", \"created_timestamp\": 1770875001143, \"content\": \"Got it, thank you. When's the best time for the attorney to call you back?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "That's right."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_488a95d880afa4149dd97e9b\", \"role\": \"agent\", \"created_timestamp\": 1770875002948, \"content\": \"Perfect. I have everything I need. An attorney will review your information and give you a call back within 24 hours. If anything comes up before then, feel free to call us back anytime. Thanks for reaching out, and take care of yourself.\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Afternoons are best."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_30e8da474e27d69e1892f4dc\", \"role\": \"agent\", \"created_timestamp\": 1770875004764, \"content\": \"Thank you for letting me know\\u2014I'll note that afternoons are best. An attorney will follow up with you within 24 hours. Take care!\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Thanks."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_a0aae67ea5a9a32e55a5646a\", \"role\": \"agent\", \"created_timestamp\": 1770875006405, \"content\": \"You're welcome. Take care!\"}]}"
+    }
+  ],
+  "6_already_has_attorney": [
+    {
+      "role": "user",
+      "content": "Yeah. I was in a trucking accident six months ago. I already have a lawyer but they never return my calls. Can your firm take over?"
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_db1d68198f4082c763a042c7\", \"role\": \"agent\", \"created_timestamp\": 1770875009258, \"content\": \"I'm sorry to hear about the trouble you're having. Since you already have an attorney, that's something the attorney here would need to discuss with you directly. Let me gather some details about the accident so they can follow up. Can you tell me a little more about what happened?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Semi ran a red light on I-35 near Dallas. Broken arm, back injuries. I'm still doing physical therapy."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_11da60017a5e26fafb7d2669\", \"role\": \"agent\", \"created_timestamp\": 1770875011235, \"content\": \"Got it. A semi ran a red light on I-35 near Dallas, and you're dealing with a broken arm and back injuries, still in physical therapy. Thank you for sharing that.  \\n\\nHas any insurance company reached out to you about this?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, early on, but my lawyer told me not to talk to them."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_0e215ad4edaa2f39097ce6fd\", \"role\": \"agent\", \"created_timestamp\": 1770875014419, \"content\": \"Understood, the insurance company reached out early on, but your lawyer advised you not to speak with them. Have you spoken with any other attorneys besides the one currently representing you?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Robert Jackson."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_db69d43e5b21e2c257a0bdd1\", \"role\": \"agent\", \"created_timestamp\": 1770875016127, \"content\": \"Thank you. I\\u2019ll make a note of that. Let me grab your contact information so the attorney here can follow up with you. What's your full name?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "555-0666."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_a77c6982d7a3b2f521dd9e0b\", \"role\": \"agent\", \"created_timestamp\": 1770875018623, \"content\": \"Thank you. Is the number you\\u2019re calling from, 555-0666, the best one to reach you? And may I also have your full name?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "robert.jackson@email.com"
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_79118378e75e7f6b784e671b\", \"role\": \"agent\", \"created_timestamp\": 1770875020361, \"content\": \"Thank you for that. Just to confirm, may I have your full name as well?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Yep."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_4c22abdf78472e2b15b41b27\", \"role\": \"agent\", \"created_timestamp\": 1770875022051, \"content\": \"I appreciate that. Could you please spell out your full name for me?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "Mornings are good."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_4b4d8b3e8049e95f88c7bf3e\", \"role\": \"agent\", \"created_timestamp\": 1770875024047, \"content\": \"Thank you. I\\u2019ll note that mornings are the best time for a callback. Could you please provide your full name so I can complete the intake?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "I hope someone actually calls back this time."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_b5942d4af62ebd05ce866077\", \"role\": \"agent\", \"created_timestamp\": 1770875025849, \"content\": \"I understand, and I\\u2019ll make sure the attorney has all your information to follow up promptly. Could you please confirm your full name for me?\"}]}"
+    }
+  ],
+  "7_caller_declines": [
+    {
+      "role": "user",
+      "content": "No thanks, I'd rather talk to a real person."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_d928e7fb9ae475899a2a09f8\", \"role\": \"agent\", \"created_timestamp\": 1770875028833, \"content\": \"No problem at all. If you'd prefer, you can call back during business hours, Monday through Friday, 9 to 5, and speak directly with someone at the office. Take care.\"}]}"
+    }
+  ],
+  "8_hostile_caller": [
+    {
+      "role": "user",
+      "content": "I don't want to talk to a damn robot. This is ridiculous."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_05cc00d986421c7a5f4e32b4\", \"role\": \"agent\", \"created_timestamp\": 1770875033087, \"content\": \"I understand. If you'd prefer, you can call back during business hours, Monday through Friday, 9 to 5, and speak directly with someone at the office.\"}]}"
+    }
+  ],
+  "9_hold_on": [
+    {
+      "role": "user",
+      "content": "Yeah sure go ahead."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_2da127cfa2cdfeb69f7fb319\", \"role\": \"agent\", \"created_timestamp\": 1770875035889, \"content\": \"Thank you. Can you tell me a little about what happened?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "I was in a car accident. Hold on a sec."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_452db22daabad801362faa81\", \"role\": \"agent\", \"created_timestamp\": 1770875037417, \"content\": \"Of course, take your time.\"}]}"
+    }
+  ],
+  "10_how_are_you": [
+    {
+      "role": "user",
+      "content": "Hey, how are you doing today?"
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_91aa25af0df9dd039a85205f\", \"role\": \"agent\", \"created_timestamp\": 1770875040129, \"content\": \"Hello, thank you for calling the Law Offices of Anderson & Associates. My name is Sarah, and I\\u2019m an AI assistant here to help. Are you calling about a personal injury matter?\"}]}"
+    }
+  ],
+  "11_skip_answered": [
+    {
+      "role": "user",
+      "content": "Yeah, go ahead."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_fcd907780c94761735da5c8c\", \"role\": \"agent\", \"created_timestamp\": 1770875042715, \"content\": \"Thank you. Can you tell me a little about what happened?\"}]}"
+    },
+    {
+      "role": "user",
+      "content": "I was in a car wreck last Monday on I-10 in Houston. Some guy ran a red light and T-boned me. I broke my collarbone and two ribs. I've been in the hospital since Tuesday. The other driver was clearly at fault, cops gave him a ticket. Allstate already called me twice."
+    },
+    {
+      "role": "agent",
+      "content": "{\"messages\": [{\"message_id\": \"message_c5ac1a0739985c0489411742\", \"role\": \"agent\", \"created_timestamp\": 1770875044584, \"content\": \"I'm sorry to hear that. I appreciate you sharing those details. Since you're currently in the hospital, let me see if I can connect you with an attorney right now. Can you hold for just a moment?\"}]}"
+    }
+  ]
+}

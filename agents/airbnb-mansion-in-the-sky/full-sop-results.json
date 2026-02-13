@@ -1,0 +1,227 @@
+{
+  "01_property_overview": {
+    "name": "General Property Overview",
+    "check": "2-sentence overview, asks what they're curious about",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Hi, can you tell me about the property?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, it's a 7-bedroom place on Beech Mountain that sleeps 16 \u2014 big mountain views, game room, sauna, the works. Uh, what specifically are you curious about?"
+      }
+    ],
+    "response": "Yeah, it's a 7-bedroom place on Beech Mountain that sleeps 16 \u2014 big mountain views, game room, sauna, the works. Uh, what specifically are you curious about?"
+  },
+  "02_capacity": {
+    "name": "Capacity & Bedrooms",
+    "check": "Sleeps 16, 7 bedrooms, 5.5 baths",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "How many people can stay there? And how many bedrooms?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, it sleeps up to 16 people and it's got 7 bedrooms. Anything else you want to know about the setup?"
+      }
+    ],
+    "response": "Yeah, it sleeps up to 16 people and it's got 7 bedrooms. Anything else you want to know about the setup?"
+  },
+  "03_amenities": {
+    "name": "Amenities - Game Room",
+    "check": "Game room with pool/foosball, maybe sauna",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "We're bringing teenagers. Is there anything for them to do?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, there's a game room downstairs with a pool table and foosball, plus WiFi and internet TV. Um, Beech Mountain Resort is just a short drive if they're into skiing or snowboarding."
+      }
+    ],
+    "response": "Yeah, there's a game room downstairs with a pool table and foosball, plus WiFi and internet TV. Um, Beech Mountain Resort is just a short drive if they're into skiing or snowboarding."
+  },
+  "04_kitchen": {
+    "name": "Kitchen & Dining",
+    "check": "Full kitchen details, seats 15-20",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "We want to cook meals. What's the kitchen like?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, it's got a full kitchen with a cooktop, oven, microwave, dishwasher, and a full-size fridge and freezer. All the cookware, dishes, and utensils are included, plus there's a Keurig coffee maker."
+      }
+    ],
+    "response": "Yeah, it's got a full kitchen with a cooktop, oven, microwave, dishwasher, and a full-size fridge and freezer. All the cookware, dishes, and utensils are included, plus there's a Keurig coffee maker."
+  },
+  "05_ski": {
+    "name": "Ski Proximity",
+    "check": "Beech Mountain 5-7 min drive",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "How close is it to the ski slopes?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, it's got walk-to-slopes proximity, and Beech Mountain Resort is about a 5 to 7 minute drive from the house. If you want more specifics on walking routes, I can check with the owner. Want me to connect you?"
+      }
+    ],
+    "response": "Yeah, it's got walk-to-slopes proximity, and Beech Mountain Resort is about a 5 to 7 minute drive from the house. If you want more specifics on walking routes, I can check with the owner. Want me to connect you?"
+  },
+  "06_wifi": {
+    "name": "WiFi & TV",
+    "check": "Confirms both",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Is there WiFi and a TV?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, it's got WiFi throughout the house and internet TV as well. Let me know if you want details on the setup or anything else."
+      }
+    ],
+    "response": "Yeah, it's got WiFi throughout the house and internet TV as well. Let me know if you want details on the setup or anything else."
+  },
+  "07_parking": {
+    "name": "Parking",
+    "check": "Fits 5 cars",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "We have three cars. Is there parking?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, there's parking for up to 5 cars at the property, so three will fit just fine."
+      }
+    ],
+    "response": "Yeah, there's parking for up to 5 cars at the property, so three will fit just fine."
+  },
+  "08_linens": {
+    "name": "Linens Provided",
+    "check": "All provided",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Do we need our own sheets and towels?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, all bed linens and towels are provided, so you don't need to bring your own."
+      }
+    ],
+    "response": "Yeah, all bed linens and towels are provided, so you don't need to bring your own."
+  },
+  "09_pets": {
+    "name": "Pet Policy",
+    "check": "No pets, offers owner connection",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Is it pet-friendly? We have a small dog."
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, unfortunately it's a strict no-pets property \u2014 even small dogs aren't allowed. If you want, I can connect you with the owner to see if there's any flexibility, but that's the official rule."
+      }
+    ],
+    "response": "Yeah, unfortunately it's a strict no-pets property \u2014 even small dogs aren't allowed. If you want, I can connect you with the owner to see if there's any flexibility, but that's the official rule."
+  },
+  "10_pricing": {
+    "name": "Pricing (Transfer)",
+    "check": "Transfers to owner, doesn't guess",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "How much for a week in March?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, for availability and pricing I'd need to get you connected with the owner \u2014 they handle all the bookings directly. Let me transfer you over real quick."
+      }
+    ],
+    "response": "Yeah, for availability and pricing I'd need to get you connected with the owner \u2014 they handle all the bookings directly. Let me transfer you over real quick."
+  },
+  "11_availability": {
+    "name": "Availability (Transfer)",
+    "check": "Transfers to owner",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "Is it available March 15-22?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, for availability I'd need to get you connected with the owner \u2014 they handle all the bookings directly. Let me transfer you over real quick."
+      }
+    ],
+    "response": "Yeah, for availability I'd need to get you connected with the owner \u2014 they handle all the bookings directly. Let me transfer you over real quick."
+  },
+  "12_hostile": {
+    "name": "Hostile Caller",
+    "check": "Apologizes, ends call",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "I don't want to talk to a robot, this is stupid."
+      },
+      {
+        "role": "agent",
+        "content": "I apologize for the trouble. Have a great day!"
+      }
+    ],
+    "response": "I apologize for the trouble. Have a great day!"
+  },
+  "13_unknown": {
+    "name": "Unknown Question",
+    "check": "Defers to owner, doesn't make up times",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "What time is check-in and check-out?"
+      },
+      {
+        "role": "agent",
+        "content": "That's a good one \u2014 I'd need to check with the owner on that. Want me to connect you?"
+      }
+    ],
+    "response": "That's a good one \u2014 I'd need to check with the owner on that. Want me to connect you?"
+  },
+  "14_accessibility": {
+    "name": "Accessibility (Hallucination Trap)",
+    "check": "Defers to owner, doesn't invent layout details",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "My mom uses a wheelchair. Is it accessible?"
+      },
+      {
+        "role": "agent",
+        "content": "That's a good one \u2014 I'd need to check with the owner on that. Want me to connect you?"
+      }
+    ],
+    "response": "That's a good one \u2014 I'd need to check with the owner on that. Want me to connect you?"
+  },
+  "15_weather": {
+    "name": "Weather/Roads (Hallucination Trap)",
+    "check": "Defers to owner, doesn't make up road conditions",
+    "transcript": [
+      {
+        "role": "user",
+        "content": "We're coming in January. Do we need 4-wheel drive?"
+      },
+      {
+        "role": "agent",
+        "content": "Yeah, I don't have specifics on road conditions \u2014 that can really vary. Uh, the owner would know best about that. Want me to connect you?"
+      }
+    ],
+    "response": "Yeah, I don't have specifics on road conditions \u2014 that can really vary. Uh, the owner would know best about that. Want me to connect you?"
+  }
+}
