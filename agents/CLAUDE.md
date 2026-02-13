@@ -256,7 +256,8 @@ If the caller asks "how are you" — always ask it back:
 |-------|-----------|-----------------|--------|--------|
 | PI Intake (Legal) | `legal-pi-intake/` | `agent_a3a30a67fcc03e1be7bfe2e362` | `llm_e84132673b1e896388a5bd467d62` | Testing |
 | PI Intake (Legacy) | `legal-pi-intake/` | `agent_c73878398bb94c62d42d2d184c` | `llm_df299bb9617c3b507a7023f78939` | Deprecated |
-| Airbnb Concierge (Mansion In The Sky) | `airbnb-mansion-in-the-sky/` | `agent_f9fe4a9f738dbed8016b3b509b` | `llm_ea8789c087ef9e6c1d52f222397d` | Tested |
+| Airbnb Concierge + Calendar | `airbnb-mansion-in-the-sky/` | `agent_6594ca7ad77eb285a27a8174a7` | `llm_b497ace53f7e321d802553eb2f07` | Testing |
+| Airbnb Concierge (Mansion In The Sky) | `airbnb-mansion-in-the-sky/` | `agent_f9fe4a9f738dbed8016b3b509b` | `llm_ea8789c087ef9e6c1d52f222397d` | Deprecated |
 | Airbnb Concierge v1 | `airbnb-mansion-in-the-sky/` | `agent_21f8a60127381dd5d7b2a70985` | `llm_1c7ef69552571055880248b88957` | Deprecated |
 
 ---
