@@ -1,7 +1,8 @@
+import os
 import json, requests
 
 OLD_KEY = "key_442c3c70851f698c705fe75c2ab6"
-NEW_KEY = "key_8970cab8ef7afa92828075dc1280"
+NEW_KEY = os.environ["RETELL_API_KEY"]
 H_OLD = {"Authorization": f"Bearer {OLD_KEY}", "Content-Type": "application/json"}
 H_NEW = {"Authorization": f"Bearer {NEW_KEY}", "Content-Type": "application/json"}
 

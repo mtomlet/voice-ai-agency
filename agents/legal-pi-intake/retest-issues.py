@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Phase 3: Confirm issues found in Phase 2 broad testing."""
 
+import os
 import json
 import urllib.request
 import time
 
-API_KEY = "key_8970cab8ef7afa92828075dc1280"
+API_KEY = os.environ["RETELL_API_KEY"]
 BASE_URL = "https://api.retellai.com"
 LLM_ID = "llm_df299bb9617c3b507a7023f78939"
 

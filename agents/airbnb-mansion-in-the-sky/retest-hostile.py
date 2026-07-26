@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Phase 3: Confirm hostile caller issue — run 5 times"""
 
+import os
 import json
 import urllib.request
 import time
 
-API_KEY = "key_8970cab8ef7afa92828075dc1280"
+API_KEY = os.environ["RETELL_API_KEY"]
 BASE_URL = "https://api.retellai.com"
 LLM_ID = "llm_70e50aa8252d348397d7b4392ee1"
 

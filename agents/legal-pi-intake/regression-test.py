@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Phase 6: Full Regression Test on New LLM"""
 
+import os
 import json
 import urllib.request
 import time
 
-API_KEY = "key_8970cab8ef7afa92828075dc1280"
+API_KEY = os.environ["RETELL_API_KEY"]
 BASE_URL = "https://api.retellai.com"
 LLM_ID = "llm_e84132673b1e896388a5bd467d62"
 

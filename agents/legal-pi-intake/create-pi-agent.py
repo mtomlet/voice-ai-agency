@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Create PI Intake Voice Agent in Retell AI"""
 
+import os
 import json
 import urllib.request
 
-API_KEY = "key_8970cab8ef7afa92828075dc1280"
+API_KEY = os.environ["RETELL_API_KEY"]
 BASE_URL = "https://api.retellai.com"
 
 SYSTEM_PROMPT = """## IDENTITY

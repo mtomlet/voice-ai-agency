@@ -201,7 +201,7 @@ GOOGLE_CLIENT_SECRET=<from OAuth download>
 GOOGLE_CALENDAR_ID=techtomlet@gmail.com
 GOOGLE_REFRESH_TOKEN=<generated in Step 2>
 
-RETELL_API_KEY=key_8970cab8ef7afa92828075dc1280
+RETELL_API_KEY=[from .env.calendar]
 RETELL_AGENT_ID=agent_f9fe4a9f738dbed8016b3b509b
 RETELL_LLM_ID=llm_ea8789c087ef9e6c1d52f222397d
 

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+credentials.json
+*-credentials.json
+token.json

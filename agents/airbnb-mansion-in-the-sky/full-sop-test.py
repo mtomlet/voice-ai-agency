@@ -4,12 +4,13 @@ Full SOP Test Cycle - Creates chat agent, runs all tests, cleans up
 Following: voice-ai-agency/agents/TESTING-AND-REFINEMENT-SOP.md
 """
 
+import os
 import json
 import urllib.request
 import time
 import sys
 
-API_KEY = "key_8970cab8ef7afa92828075dc1280"
+API_KEY = os.environ["RETELL_API_KEY"]
 BASE_URL = "https://api.retellai.com"
 LLM_ID = "llm_1c7ef69552571055880248b88957"
 

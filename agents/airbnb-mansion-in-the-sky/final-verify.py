@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
+import os
 import json, urllib.request, time
 
-API_KEY = "key_8970cab8ef7afa92828075dc1280"
+API_KEY = os.environ["RETELL_API_KEY"]
 BASE_URL = "https://api.retellai.com"
 NEW_LLM_ID = "llm_ea8789c087ef9e6c1d52f222397d"
 

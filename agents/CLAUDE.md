@@ -263,4 +263,4 @@ If the caller asks "how are you" — always ask it back:
 
 ## API KEY
 
-Retell AI: `key_8970cab8ef7afa92828075dc1280`
+Retell AI: `$RETELL_API_KEY` (see .env.calendar, not committed)
